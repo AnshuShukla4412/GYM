@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    width: 100%;
+    position: absolute;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 38%;
+    /* border: 2px solid red; */
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgb(0,0,0, 0.1);
+    top: 30%;
+    display: block;
+    position:absolute;
+    height:80vh;
+    text-align: center;
+    margin: 100px;
+
+}
+.container img{
+    width: 50%;
+}
+
+.div{
+    color: orange;
+    font-size: 1.9rem;
+}
+.UTR input{
+    width: 30%;
+    height: 31px;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 6px;
+}
+.btn{
+    height: 5vh;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 15px;
+    width: 15%;
+    background-color: skyblue;
+}
+.btn:hover{
+    background-color: red;
+}
+
+.note{
+    margin-top:24px;
+    color:red;
+    font-size: 1.3rem;
+}
+
+.container .home a{
+    display: inline;
+    position: relative;
+    border: 2px solid gray;
+    left: 37%;
+    top: 12px;
+    text-decoration: none;
+}
+
+.container .buy a{
+    display: inline;
+    position: relative;
+    border: 2px solid gray;
+    left: -41%;
+    top: -8px;
+    text-decoration: none;  
+}
