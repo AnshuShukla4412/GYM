@@ -1,4 +1,8 @@
 /* CSS Reset  */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
 body {
     font-family: 'Merriweather Sans', sans-serif;
     color: black;
@@ -48,8 +52,8 @@ header {
     /* display: flex; */
     text-align: center;
     left: 0%;
-    top: -50px;
-    margin: 7px auto;
+    top: -64px;
+    margin: 7px 0px;
 
 }
 
