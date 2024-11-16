@@ -14,13 +14,13 @@ body {
     display: flex;
     position: relative;
     text-align: center;
-    top: -7px;
+    top: 0px;
 }
 
 header {
     background-color: black;
     width: 116.3%;
-    top: -7px;
+    top: 0px;
     position: relative;
     height: 77px;
 }
