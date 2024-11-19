@@ -110,49 +110,41 @@ header {
 }
 
 
-
-.Register {
-    font-size: 20px;
-    margin: 130px 110px;
-}
-
-.Register li a {
-    color: rgb(193, 174, 245);
-}
-
 .team{
-    display: flex;
+    display: inline-block;
     border-radius: 8px;
-    padding: 30px 0px;
-    margin: 92px 0px;
+    align-content: center;
+    margin: 70px 0px;
+    text-align: center;
+    height: 50vh;
     width: 116%;
 }
-.team h1{
-    position: absolute;
-    text-align: center;
-    color: black;
-    top: 120%;
-    left: 43%;
-}
-.team .box{
+
+.box{
     display: flex;
     margin: 16px 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) ;
-    width: 8%;
-    padding: 127px 87px;
+    align-items: end;
+}
+.box1{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 274px;
+    height: 274px;
     border-radius: 5px;
-    /* border: 2px solid red */
 }
 .box h2{
-    color: black;
-    padding: 0px 9px;
+    /* color: black; */
+    padding: 6px 0px;
     position: absolute;
 }
 
 .box .position{
     color: rgb(164 164 164);
     position: absolute;
-    padding: 53px 1px;
+    padding: 6px 0px;
 }
 
 footer {
