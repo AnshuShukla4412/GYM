@@ -1,16 +1,30 @@
+/* CSS Reset  */
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Merriweather Sans', sans-serif;
     color: black;
-    margin: 0%;
-    width: 86%;
-    /* margin: 150px; */
+    margin: 0px;
     padding: 0px;
+    /* background: url('img/bg.jpg.jpg')no-repeat center center/ cover; */
+}
+
+.vid {
+    width: 100%;
+    display: flex;
+    position: relative;
+    text-align: center;
+    top: 0px;
 }
 
 header {
     background-color: black;
-    width: 116.3%;
-    top: -7px;
+    top: 0px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
     position: relative;
     height: 77px;
 }
@@ -18,7 +32,6 @@ header {
 .left {
     position: relative;
     left: 10px;
-    top: 11px;
     display: inline-block;
 }
 
@@ -38,19 +51,19 @@ header {
     /* display: flex; */
     text-align: center;
     left: 0%;
-    top: -64px;
-    margin: 7px auto;
+    /* top: -46px; */
+    margin: 7px 0px;
 
 }
 
-.right {
+/* .right {
     position: absolute;
     right: 16px;
     top: 18px;
     ;
     display: inline-block;
 
-}
+    } */
 
 /* .left li {
         font-size: 58;
@@ -84,7 +97,7 @@ header {
     right: 45px;
     border-radius: 3px;
     top: -4px;
-    width: 101%;
+    width: 100%;
     height: 7vh;
     padding: 4px 14px;
     font-size: 15px;
@@ -97,32 +110,29 @@ header {
 
 .about {
     background: url(img/about1.jpg) no-repeat center center / cover;
-    position: absolute;
-    top: 70px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
     height: 50vh;
-    text-align: center;
     opacity: 3;
     color: white;
-    width: 100%;
+    font-size: 1.8rem;
 }
-
-.about h1 {
-    position: relative;
-    top: 33%;
-    font-size: 3.2rem;
-}
-
 .section1 {
     /* border: 2px solid red; */
     height: 64vh;
     display: flex;
-    top: 62%;
-    position: absolute;
-    margin: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    /* top: 62%; */
+    /* position: absolute; */
+    margin: 45px 50px;
 }
 
 .section1 img {
     margin: 0px 10px;
+    width: 70%;
+    height: 64vh;
 
 }
 
@@ -155,10 +165,11 @@ header {
 .section2{
     /* border: 2px solid red; */
     background: url(img/about_our_team.webp) no-repeat center center/cover;
-    top: 130%;
-    position: absolute;
+    /* top: 130%; */
     width: 80%;
     display: flex;
+    justify-content:space-between;
+    align-items: center;
     height: 19vh;
     margin: 82px 137px;
     color: white;
@@ -167,19 +178,24 @@ header {
 .section2 h1{
     color: white;
     font-size: 2.2rem;
-    display: block;
-    position: absolute;
-    left: 15%;
-    padding: 25px 0px;
+    display: inline-block;
+    position: relative;
+    /* top: 45px; */
+    left: 10%;
+    /* padding: 25px 0px; */
 }
+.section2 a{
+    position: relative;
+    right: 11%;
+}
+
 
 .section2 .btn1{
     background-color: white;
     color: black;
-    position: absolute;
-    right: 8%;
-    margin: 50px;
-    width: 13%;
+    position: relative;
+    margin: 0px 15px;
+    width: 124%;
     height: 7vh;
     font-size: 1.1rem;
     cursor: pointer;
@@ -195,11 +211,7 @@ header {
 
 footer {
     background-color: rgb(33, 4, 4);
-    width: 100%;
-    position: absolute;
-    top: 170%;
-    left: 0px;
-    margin: 24px 0px;
+
 }
 
 .footer {
@@ -213,7 +225,7 @@ footer {
     left: 23px;
     position: relative;
     width: 20%;
-    margin: 0px 120px;
+    margin: 22px 120px;
 }
 
 .footer-second ul li a {

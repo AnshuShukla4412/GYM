@@ -1,20 +1,18 @@
 /* CSS Reset  */
-/* *{
+*{
     margin: 0;
     padding: 0;
-} */
+}
 body {
     font-family: 'Merriweather Sans', sans-serif;
     color: black;
-    margin: 0%;
-    width: 86%;
-    /* margin: 150px; */
+    margin: 0px;
     padding: 0px;
     /* background: url('img/bg.jpg.jpg')no-repeat center center/ cover; */
 }
 
 .vid {
-    width: 116.3%;
+    width: 100%;
     display: flex;
     position: relative;
     text-align: center;
@@ -23,8 +21,10 @@ body {
 
 header {
     background-color: black;
-    width: 116.3%;
     top: 0px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
     position: relative;
     height: 77px;
 }
@@ -32,7 +32,6 @@ header {
 .left {
     position: relative;
     left: 10px;
-    top: 11px;
     display: inline-block;
 }
 
@@ -52,19 +51,19 @@ header {
     /* display: flex; */
     text-align: center;
     left: 0%;
-    top: -64px;
+    /* top: -46px; */
     margin: 7px 0px;
 
 }
 
-.right {
+/* .right {
     position: absolute;
     right: 16px;
     top: 18px;
     ;
     display: inline-block;
 
-}
+} */
 
 /* .left li {
         font-size: 58;
@@ -98,7 +97,7 @@ header {
     right: 45px;
     border-radius: 3px;
     top: -4px;
-    width: 101%;
+    width: 100%;
     height: 7vh;
     padding: 4px 14px;
     font-size: 15px;
@@ -111,13 +110,14 @@ header {
 
 
 .team{
+    /* border: 2px solid red; */
     display: inline-block;
     border-radius: 8px;
     align-content: center;
     margin: 70px 0px;
     text-align: center;
-    height: 50vh;
-    width: 116%;
+    /* height: 50vh; */
+    width: 100%;
 }
 
 .box{
@@ -126,30 +126,35 @@ header {
     align-items: end;
 }
 .box1{
-    display: flex;
-    align-items: end;
-    justify-content: center;
+
     margin: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 274px;
-    height: 274px;
+    /* height: 274px; */
     border-radius: 5px;
 }
+.img img{
+    width: 60%;
+    height: 20vh;
+    /* text-align: center; */
+    margin: 20px 0px;
+    /* position: relative; */
+    border-radius: 50%;
+}
 .box h2{
-    /* color: black; */
+    color: black;
     padding: 6px 0px;
-    position: absolute;
+    /* position: absolute; */
 }
 
 .box .position{
     color: rgb(164 164 164);
-    position: absolute;
+    /* position: absolute; */
     padding: 6px 0px;
 }
 
 footer {
     background-color: rgb(33, 4, 4);
-    width: 116.3%;
 }
 
 .footer {
@@ -163,7 +168,7 @@ footer {
     left: 23px;
     position: relative;
     width: 20%;
-    margin: 0px 120px;
+    margin: 22px 120px;
 }
 
 .footer-second ul li a {
