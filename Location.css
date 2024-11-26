@@ -130,7 +130,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 50vh;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .box {
       height: 30vh;
