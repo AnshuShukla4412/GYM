@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Merriweather Sans', sans-serif;
     color: black;
@@ -10,41 +11,47 @@ body {
     /* background: url('img/bg.jpg.jpg')no-repeat center center/ cover; */
 }
 
-.container{
+.container {
     width: 38%;
     /* border: 2px solid red; */
     border-radius: 12px;
-    box-shadow: 0px 4px 8px rgb(0,0,0, 0.1);
+    box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.1);
     /* top: 30%; */
     display: block;
-    position:relative;
+    position: relative;
     left: 25%;
-    height:100vh;
+    /* height:100vh;*/
+    margin: 53px 13px;
+    padding: 19px;
     text-align: center;
-    margin: 100px ;
+    margin: 100px;
 
 }
-.container img{
+
+.container img {
     width: 35%;
     padding: 23px 0px;
 }
 
-.div{
+.div {
     color: orange;
     font-size: 1.9rem;
-    padding: 23px 0px ;
+    padding: 23px 0px;
 }
-.UTR{
+
+.UTR {
     margin: 23px 0px;
 }
-.UTR input{
+
+.UTR input {
     width: 30%;
     height: 31px;
     text-align: center;
     font-size: 1rem;
     border-radius: 6px;
 }
-.btn{
+
+.btn {
     height: 5vh;
     border-radius: 9px;
     cursor: pointer;
@@ -52,13 +59,14 @@ body {
     width: 15%;
     background-color: skyblue;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: red;
 }
 
-.note{
-    margin-top:24px 0px;
-    color:red;
+.note {
+    margin-top: 24px 0px;
+    color: red;
     /* text-align: left; */
     font-size: 1.3rem;
 }
@@ -66,17 +74,17 @@ body {
 .container .home {
     display: flex;
     justify-content: space-between;
-    margin: 30px 13px ;
+    margin: 30px 13px;
     /* border: 2px solid red; */
     align-items: center;
     text-decoration: none;
 }
 
-.container .home a{
+.container .home a {
     border: 2px solid gray;
     width: 20%;
     /* height: 3vh; */
     font-size: 1.2rem;
     text-align: center;
-    text-decoration: none;  
+    text-decoration: none;
 }
