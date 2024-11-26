@@ -1,8 +1,9 @@
 /* CSS Reset  */
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Merriweather Sans', sans-serif;
     color: black;
@@ -105,7 +106,7 @@ header {
 }
 
 
-.contact{
+.contact {
     display: flex;
     /* border: 2px solid black; */
     background: url(img/contact_us_bg.webp) no-repeat center center / cover;
@@ -115,14 +116,16 @@ header {
     color: white;
     font-size: 1.9rem;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80vh;
+    /* height: 90h; */
     /* border: 2px solid red; */
 }
-.choose-us{
+
+.choose-us {
     display: inline-block;
     /* border: 2px solid red; */
     color: black;
@@ -131,24 +134,30 @@ header {
     width: 46%;
     left: 133px;
 }
-.container>div{
+
+.container>div {
     font-size: 17px;
 
 }
-.choose-us p{
+
+.choose-us p {
     color: rgb(105 105 105);
 }
-.choose-us a{
+
+.choose-us a {
     text-decoration: none;
     color: rgb(105 105 105);
     padding: 9px;
 }
-.choose-us img{
+
+.choose-us img {
     width: 23px;
 }
-.choose-us>div{
+
+.choose-us>div {
     padding: 7px;
 }
+
 .form {
     position: relative;
     /* right: 5px; */
@@ -156,24 +165,26 @@ header {
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    height: 80vh;
+    /* height: 80vh; */
     box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.1);
     background-color: white;
     /* padding: 23px 59px; */
     width: 30%;
-    top: -6%;
+    top: -45px;
     margin: 0px 120px;
 }
 
-.form .div{
+.form .div {
     position: relative;
     top: 35px;
     /* text-align: center; */
 }
+
 .div h1 {
     text-align: center;
 }
-.form-group{
+
+.form-group {
     padding: 5px 0px;
     display: block;
     position: relative;
@@ -193,22 +204,23 @@ header {
     font-size: 20px;
     border-radius: 4px;
 }
+
 /* .form-group h4{
     display: block;
     left: 72px;
     position: relative;
 } */
 
-.text{
+.text {
     position: relative;
     margin: 23px 0px;
 }
 
-#text{
+#text {
     /* width: 100%; */
     font-size: 1.1rem;
-    height: 22vh;
-    
+    /* height: 22vh; */
+
 }
 
 /* .form button {
@@ -219,17 +231,17 @@ header {
     margin: auto;
     border-radius: 20px;
     } */
-    .btn2 {
+.btn2 {
     font-family: 'Merriweather Sans', sans-serif;
-    margin: 22px;
+    margin: 45px 18px;
     background-color: black;
     position: relative;
-    left: 30%;
+    left: 28%;
     color: white;
     padding: 4px 14px;
     border: 2px solid gray;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 1.2rem;
     cursor: pointer;
 }
 
@@ -279,9 +291,10 @@ footer {
     margin: 23px 89px;
 }
 
-hr{
+hr {
     margin: 12px 23px;
 }
+
 .footer-right {
     color: white;
     margin: 0px 38px;
