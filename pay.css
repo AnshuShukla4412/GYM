@@ -1,32 +1,41 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: black;
     margin: 0px;
-    width: 100%;
-    position: absolute;
-    background-color: aliceblue;
-    display: flex;
-    justify-content: center;
+    padding: 0px;
+    /* background: url('img/bg.jpg.jpg')no-repeat center center/ cover; */
 }
 
 .container{
     width: 38%;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     border-radius: 12px;
     box-shadow: 0px 4px 8px rgb(0,0,0, 0.1);
-    top: 30%;
+    /* top: 30%; */
     display: block;
-    position:absolute;
-    height:80vh;
+    position:relative;
+    left: 25%;
+    height:100vh;
     text-align: center;
-    margin: 100px;
+    margin: 100px ;
 
 }
 .container img{
-    width: 50%;
+    width: 35%;
+    padding: 23px 0px;
 }
 
 .div{
     color: orange;
     font-size: 1.9rem;
+    padding: 23px 0px ;
+}
+.UTR{
+    margin: 23px 0px;
 }
 .UTR input{
     width: 30%;
@@ -48,25 +57,26 @@ body{
 }
 
 .note{
-    margin-top:24px;
+    margin-top:24px 0px;
     color:red;
+    /* text-align: left; */
     font-size: 1.3rem;
 }
 
-.container .home a{
-    display: inline;
-    position: relative;
-    border: 2px solid gray;
-    left: 37%;
-    top: 12px;
+.container .home {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 13px ;
+    /* border: 2px solid red; */
+    align-items: center;
     text-decoration: none;
 }
 
-.container .buy a{
-    display: inline;
-    position: relative;
+.container .home a{
     border: 2px solid gray;
-    left: -41%;
-    top: -8px;
+    width: 20%;
+    /* height: 3vh; */
+    font-size: 1.2rem;
+    text-align: center;
     text-decoration: none;  
 }
