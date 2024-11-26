@@ -120,11 +120,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50vh;
+    margin: 100px 0px;
+    padding: 32px 0px;
     /* border: 2px solid red; */
 }
 .box {
-      height: 30vh;
       border: 2px solid #f2f2f9;
       margin: 0px 122px;
       padding: 46px;
@@ -151,8 +151,8 @@ header {
 
 .btn2{
     margin: 11px -47px;
-    width: 93px;
-    height: 5vh;
+    padding: 10px 16px;
+    font-size: 1rem;
     background-color: black;
     color: white;
     cursor: pointer;

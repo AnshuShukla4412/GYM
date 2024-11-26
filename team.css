@@ -118,7 +118,7 @@ header {
 .container {
     /* border: 2px solid red; */
     width: 80%;
-    height: 163vh;
+    /* height: 163vh; */
     margin: 32px 148px;
     top: 71%;
 }
@@ -164,7 +164,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 25vh;
+    padding: 34px 0px;
     margin: 23px 73px;
     color: white;
 }

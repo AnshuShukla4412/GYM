@@ -1,8 +1,9 @@
 /* CSS Reset  */
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Merriweather Sans', sans-serif;
     color: black;
@@ -114,9 +115,10 @@ header {
     color: white;
     font-size: 1.8rem;
 }
+
 .section1 {
     /* border: 2px solid red; */
-    height: 64vh;
+    /* height: 64vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,31 +149,31 @@ header {
 }
 
 .btn1 {
-    width: 100px;
-    height: 6vh;
     background-color: black;
+    font-size: 1.2rem;
+    padding: 10px 10px;
     color: white;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
 .btn1:hover {
     background-color: gray;
 }
 
-.section2{
+.section2 {
     /* border: 2px solid red; */
     background: url(img/about_our_team.webp) no-repeat center center/cover;
     /* top: 130%; */
     width: 80%;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
-    height: 19vh;
+    padding: 40px 0px;
     margin: 82px 137px;
     color: white;
 }
 
-.section2 h1{
+.section2 h1 {
     color: white;
     font-size: 2.2rem;
     display: inline-block;
@@ -180,24 +182,23 @@ header {
     left: 10%;
     /* padding: 25px 0px; */
 }
-.section2 a{
+
+.section2 a {
     position: relative;
     right: 11%;
 }
 
 
-.section2 .btn1{
+.section2 .btn1 {
     background-color: white;
     color: black;
     position: relative;
-    margin: 0px 15px;
-    width: 124%;
-    height: 7vh;
+    padding: 12px 15px;
     font-size: 1.1rem;
     cursor: pointer;
 }
 
-.section2 .btn1:hover{
+.section2 .btn1:hover {
     background-color: gray;
 }
 

@@ -130,7 +130,7 @@ header {
 }
 .img img{
     width: 60%;
-    height: 20vh;
+    /* height: 20vh; */
     object-fit: cover;
     object-position: center;
     margin: 20px 0px;
