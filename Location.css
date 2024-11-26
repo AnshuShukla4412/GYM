@@ -113,18 +113,9 @@ header {
     height: 40vh;
 }
 .location h1{
-    position: relative;
-    /* text-align: center; */
     font-size: 3.3rem;
-    /* top: 15%; */
 }
 
-.location h2{
-    position: relative;
-    font-size:1.9rem;
-    top: 15%; 
-    right: 10%;
-}
 .container{
     display: flex;
     justify-content: space-between;
