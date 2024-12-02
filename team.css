@@ -12,21 +12,13 @@ body {
     /* background: url('img/bg.jpg.jpg')no-repeat center center/ cover; */
 }
 
-.vid {
-    width: 100%;
-    display: flex;
-    position: relative;
-    text-align: center;
-    top: 0px;
-}
-
 header {
     background-color: black;
     top: 0px;
     justify-content: space-between;
     align-items: center;
     display: flex;
-    position: relative;
+    position: sticky;
     height: 77px;
 }
 
@@ -126,27 +118,22 @@ header {
 .container .box {
     /* border: 2px solid black; */
     width: 30%;
-    position: relative;
     display: inline-block;
-    top: 6%;
-    /* height: 45vh; */
-    left: 23px;
-    margin: 11px;
+    margin: 11px 18px;
     box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.1);
     box-sizing: border-box;
     cursor: pointer;
 }
 .img img{
     width: 87%;
-    height: 31vh;
+    height: 300px;
     object-fit: cover;
     object-position: center;
     padding: 23px;
 }
 
 .position {
-    left: 12px;
-    position: relative;
+margin: 0px 22px;
 }
 
 .box:hover {
@@ -170,23 +157,24 @@ header {
 }
 
 .contact>div {
-    position: relative;
-    left: 10%;
+  margin: 0px 133px;
 }
 
 form {
     margin: 0px 80px;
 }
 
-.contact .btn {
+.contact .btn1 {
     background-color: white;
     /* margin: 0px 23px; */
+    padding: 18px 20px;
     font-size: 1.2rem;
     color: black;
 }
 
-.btn:hover {
+.btn1:hover {
     background-color: gray;
+    color: white;
 }
 
 
@@ -202,8 +190,6 @@ footer {
 }
 
 .footer-first {
-    left: 23px;
-    position: relative;
     width: 20%;
     margin: 25px 120px;
 }
@@ -233,16 +219,12 @@ hr {
     margin: 12px 23px;
 }
 
-.footer-right {
+.footer-down {
     color: white;
+    display: flex;
+    justify-content: space-between;
     margin: 0px 38px;
-    text-align: left;
+    padding: 8px 0px;
+
 }
 
-.Transform {
-    color: white;
-    top: -16px;
-    margin: 0px 38px;
-    position: relative;
-    text-align: right;
-}

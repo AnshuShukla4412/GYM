@@ -11,13 +11,6 @@ body {
     /* background: url('img/bg.jpg.jpg')no-repeat center center/ cover; */
 }
 
-.vid {
-    width: 100%;
-    display: flex;
-    position: relative;
-    text-align: center;
-    top: 0px;
-}
 
 header {
     background-color: black;
@@ -25,7 +18,7 @@ header {
     justify-content: space-between;
     align-items: center;
     display: flex;
-    position: relative;
+    position: sticky;
     height: 77px;
 }
 
@@ -132,10 +125,6 @@ header {
       border-radius: 20px;
       text-align: center;
 }
-.content{
-    position: relative;
-    top: 20%;
-}
 .content a{
     text-decoration: none;
     color: rgb(53, 52, 52);
@@ -162,21 +151,18 @@ header {
     background-color: gray;
 }
 
-
 footer {
     background-color: rgb(33, 4, 4);
+
 }
 
 .footer {
     display: flex;
     height: 190px;
     color: white;
-    /* width: 116.3%; */
 }
 
 .footer-first {
-    left: 23px;
-    position: relative;
     width: 20%;
     margin: 25px 120px;
 }
@@ -202,19 +188,15 @@ footer {
     margin: 23px 89px;
 }
 
-hr{
+hr {
     margin: 12px 23px;
 }
-.footer-right {
-    color: white;
-    margin: 0px 38px;
-    text-align: left;
-}
 
-.Transform {
+.footer-down {
     color: white;
-    top: -16px;
+    display: flex;
+    justify-content: space-between;
     margin: 0px 38px;
-    position: relative;
-    text-align: right;
+    padding: 8px 0px;
+
 }

@@ -12,13 +12,6 @@ body {
     /* background: url('img/bg.jpg.jpg')no-repeat center center/ cover; */
 }
 
-.vid {
-    width: 100%;
-    display: flex;
-    position: relative;
-    text-align: center;
-    top: 0px;
-}
 
 header {
     background-color: black;
@@ -26,7 +19,7 @@ header {
     justify-content: space-between;
     align-items: center;
     display: flex;
-    position: relative;
+    position: sticky;
     height: 77px;
 }
 
@@ -115,11 +108,9 @@ header {
 
 .packs {
     display: block;
-    position: relative;
-    left: 86px;
-    width: 40%;
-    top: -20%;
-    margin: 15px 64px;
+    /* position: relative; */
+    width: 55%;
+    margin: 15px 100px;
 }
 
 .packs>p {
@@ -128,24 +119,17 @@ header {
 
 .pack-list {
     margin: 24px;
-    position: relative;
-    right: 3px;
 }
 
 .box {
     /* border: 2px solid black; */
     text-align: center;
     display: inline-block;
-    position: relative;
     padding: 23px 33px;
     box-shadow: 0px 4px 8px rgb(33, 4, 4, 0.1);
-    /* height: 30vh; */
     margin: 23px 26px;
 }
-.box div{
-    position: relative;
-    top: 10%;
-}
+
 .box h2{
     padding: 12px 0px;
 }
@@ -166,9 +150,9 @@ header {
 
 
 
-
 footer {
     background-color: rgb(33, 4, 4);
+
 }
 
 .footer {
@@ -178,8 +162,6 @@ footer {
 }
 
 .footer-first {
-    left: 23px;
-    position: relative;
     width: 20%;
     margin: 25px 120px;
 }
@@ -209,16 +191,11 @@ hr {
     margin: 12px 23px;
 }
 
-.footer-right {
+.footer-down {
     color: white;
+    display: flex;
+    justify-content: space-between;
     margin: 0px 38px;
-    text-align: left;
-}
+    padding: 8px 0px;
 
-.Transform {
-    color: white;
-    top: -16px;
-    margin: 0px 38px;
-    position: relative;
-    text-align: right;
 }

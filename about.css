@@ -12,21 +12,13 @@ body {
     /* background: url('img/bg.jpg.jpg')no-repeat center center/ cover; */
 }
 
-.vid {
-    width: 100%;
-    display: flex;
-    position: relative;
-    text-align: center;
-    top: 0px;
-}
-
 header {
     background-color: black;
     top: 0px;
     justify-content: space-between;
     align-items: center;
     display: flex;
-    position: relative;
+    position: sticky;
     height: 77px;
 }
 
@@ -177,22 +169,17 @@ header {
     color: white;
     font-size: 2.2rem;
     display: inline-block;
-    position: relative;
-    /* top: 45px; */
-    left: 10%;
-    /* padding: 25px 0px; */
+margin: 0px 122px;
+    
 }
 
-.section2 a {
-    position: relative;
-    right: 11%;
-}
+
 
 
 .section2 .btn1 {
     background-color: white;
     color: black;
-    position: relative;
+    margin: 0px 100px;
     padding: 12px 15px;
     font-size: 1.1rem;
     cursor: pointer;
@@ -201,7 +188,6 @@ header {
 .section2 .btn1:hover {
     background-color: gray;
 }
-
 
 
 
@@ -215,14 +201,11 @@ footer {
     display: flex;
     height: 190px;
     color: white;
-    /* width: 116.3%; */
 }
 
 .footer-first {
-    left: 23px;
-    position: relative;
     width: 20%;
-    margin: 22px 120px;
+    margin: 25px 120px;
 }
 
 .footer-second ul li a {
@@ -250,16 +233,11 @@ hr {
     margin: 12px 23px;
 }
 
-.footer-right {
+.footer-down {
     color: white;
+    display: flex;
+    justify-content: space-between;
     margin: 0px 38px;
-    text-align: left;
-}
+    padding: 8px 0px;
 
-.Transform {
-    color: white;
-    top: -16px;
-    margin: 0px 38px;
-    position: relative;
-    text-align: right;
 }
