@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team</title>
     <link rel="stylesheet" href="team.css">
+    <link rel="stylesheet"  href="team-resposive.css">
 </head>
 
 <body>
@@ -27,6 +28,17 @@
         </div>
         <!-- Right box for buttons  -->
         <div class="right">
+            <a href="buy.html"> <button class="btn">GET STARTED</button> </a>
+        </div>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="dropdown_menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="Location.html">Locations</a></li>
+            <li><a href="#">Studio</a></li>
+            <li><a href="team.html">Team</a></li>
             <a href="buy.html"> <button class="btn">GET STARTED</button> </a>
         </div>
     </header>
@@ -166,6 +178,23 @@
         </div>
 
     </footer>
+
+    <script src="https://kit.fontawesome.com/3983cdd3ce.js" crossorigin="anonymous">
+    </script>
+    <script>
+        const Btn = document.querySelector('.menu-icon')
+        const menu = document.querySelector('.menu-icon i')
+        const dropdowMenu = document.querySelector('.dropdown_menu')
+
+        Btn.onclick = function () {
+            dropdowMenu.classList.toggle('open')
+            const isOpen = dropdowMenu.classList.contains('open')
+
+            menu.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
+    </script>
 </body>
 
 </html>
