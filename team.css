@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -26,7 +27,7 @@ header {
 
 .left img {
     width: 70px;
-/*     border-radius: 50%; */
+    /* border-radius: 50%; */
 }
 
 .left div {
@@ -191,6 +192,7 @@ form {
 }
 
 
+
 footer {
     background-color: rgb(33, 4, 4);
 
@@ -214,7 +216,7 @@ footer {
 
 .footer-second ul li {
     list-style: none;
-    margin: 23px 65px;
+    margin: 23px 65px; 
 }
 
 .footer-third ul li a {
@@ -240,4 +242,3 @@ hr {
     padding: 8px 0px;
 
 }
-
