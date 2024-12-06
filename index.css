@@ -25,6 +25,7 @@ header {
     justify-content: space-between;
     align-items: center;
     display: flex;
+    z-index: 10;
     position: sticky;
     height: 77px;
 }
