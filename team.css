@@ -93,14 +93,14 @@ header {
     background-color: rgb(82, 75, 75);
 }
 
-/* .menu-icon{
+.menu-icon{
     display: none;
     color: white;
     margin: 23px ;
     font-size: 1.9rem;
     cursor: pointer;
 
-} */
+}
 /* @media (max-width: 999px) {
     
     .header .navbar{
