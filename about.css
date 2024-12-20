@@ -1,7 +1,7 @@
-/* CSS Reset  */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -16,21 +16,16 @@ header {
     background-color: black;
     top: 0px;
     justify-content: space-between;
+    padding: 0px 23px;
     align-items: center;
     display: flex;
     position: sticky;
     height: 77px;
 }
 
-.left {
-    position: relative;
-    left: 10px;
-    display: inline-block;
-}
-
 .left img {
     width: 70px;
-    /* shape-image-threshold: (10px); */
+    /* border-radius: 50%; */
 }
 
 .left div {
@@ -85,9 +80,8 @@ header {
 
 .btn {
     font-family: 'Merriweather Sans', sans-serif;
-    position: relative;
-    right: 45px;
     border-radius: 3px;
+    /* margin: 0px 50px; */
     padding: 17px 14px;
     font-size: 15px;
     cursor: pointer;
@@ -102,37 +96,35 @@ header {
     justify-content: center;
     display: flex;
     align-items: center;
-    height: 50vh;
+    height: 350px;
     opacity: 3;
     color: white;
     font-size: 1.8rem;
 }
 
 .section1 {
-    /* border: 2px solid red; */
-    /* height: 64vh; */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* top: 62%; */
-    /* position: absolute; */
     margin: 45px 50px;
 }
 
 .section1 img {
-    margin: 0px 10px;
-    width: 70%;
-    height: 64vh;
+    margin: 10px;
+    width: 94vw;
+    height: 550px;
 
 }
 
 .section1 .P {
-    margin: 0px 50px;
+    margin: 0px 1rem;
+    
 }
 
 .section1 p {
     padding: 10px 0px;
     font-size: 1.1rem;
+    text-align: justify;
     color: rgb(43, 43, 43);
 }
 
@@ -154,32 +146,24 @@ header {
 
 .section2 {
     /* border: 2px solid red; */
-    background: url(img/about_our_team.webp) no-repeat center center/cover;
     /* top: 130%; */
-    width: 80%;
+    margin: 82px 0px;
+    color: white;
+    font-size: 1.5rem;
+}
+.section2 div{
     display: flex;
-    justify-content: space-between;
+    margin: 0rem 7rem;
     align-items: center;
-    padding: 40px 0px;
-    margin: 82px 137px;
-    color: white;
+    justify-content: space-between;
+    padding: 40px 80px;
+    background: url(img/about_our_team.webp) no-repeat center center/cover;
+
 }
-
-.section2 h1 {
-    color: white;
-    font-size: 2.2rem;
-    display: inline-block;
-margin: 0px 122px;
-    
-}
-
-
-
 
 .section2 .btn1 {
     background-color: white;
     color: black;
-    margin: 0px 100px;
     padding: 12px 15px;
     font-size: 1.1rem;
     cursor: pointer;
@@ -191,7 +175,6 @@ margin: 0px 122px;
 
 
 
-
 footer {
     background-color: rgb(33, 4, 4);
 
@@ -199,13 +182,17 @@ footer {
 
 .footer {
     display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
     height: 190px;
+    margin: 0px 45px;
     color: white;
 }
 
 .footer-first {
-    width: 20%;
-    margin: 25px 120px;
+    width: 430px;
+    line-height: 1.8rem;
+    margin: 25px 46px;
 }
 
 .footer-second ul li a {
@@ -215,7 +202,7 @@ footer {
 
 .footer-second ul li {
     list-style: none;
-    margin: 23px 65px;
+    margin: 23px 46px;
 }
 
 .footer-third ul li a {
@@ -226,7 +213,7 @@ footer {
 
 .footer-third ul li {
     list-style: none;
-    margin: 23px 89px;
+    margin: 23px 46px;
 }
 
 hr {
@@ -239,5 +226,64 @@ hr {
     justify-content: space-between;
     margin: 0px 38px;
     padding: 8px 0px;
+
+}
+
+@media screen and (max-width: 1004px) {
+
+    .about {
+        font-size: 1.2rem;
+        text-align: center;
+
+    }
+
+    .section2 div{
+        flex-direction: column;
+        margin: 12px;
+        padding: 12px 0px;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .section2 .btn1{
+        margin: 12px 0px;
+    }
+        
+    .section1{
+        flex-direction: column;
+        margin: 30px 0px;
+    }
+
+    .section1 h1{
+        font-size: 1.9rem;
+    }
+
+   
+}
+@media screen and (max-width: 870px) {
+    .footer-first{
+        max-width: 70vw;
+        text-align: justify;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+    .footer{
+        flex-direction: column;
+        height: auto;
+        text-align: left;
+        margin: 0px 0px;
+    }
+
+    .footer-down{
+        text-align: center;
+        flex-direction: column;
+        line-height: 2rem;
+    }
+
+    .section1 img{
+        height: 0%;
+    }
+
 
 }

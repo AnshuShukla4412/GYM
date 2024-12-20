@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Devil Fitness</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsive-navbar.css">
+    <script src="https://kit.fontawesome.com/3983cdd3ce.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 </head>
 
 <body>
-
     <header class="header">
         <!-- Left box for logo  -->
         <div class="left">
@@ -24,14 +26,28 @@
                 <li><a href="Location.html">Locations</a></li>
                 <li><a href="#">Studio</a></li>
                 <li><a href="team.html">Team</a></li>
-            </ul>
+            </ul> 
         </div>
         <!-- Right box for buttons  -->
         <div class="right">
             <a href="buy.html"> <button class="btn">GET STARTED</button> </a>
         </div>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="dropdown_menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="Location.html">Locations</a></li>
+            <li><a href="#">Studio</a></li>
+            <li><a href="team.html">Team</a></li>
+            <a href="buy.html"> <button class="btn">GET STARTED</button> </a>
+        </div>
     </header>
-    <video class="vid" autoplay loop muted src="img/vid.mp4"></video>
+    <div>
+        <video class="vid" autoplay loop muted src="img/vid.mp4"></video>
+    </div>
 
     <div class="team">
         <div>
@@ -116,6 +132,8 @@
             <p>TRANSFORM YOUR MIND | TRANSFORM YOUR BODY</p>
         </div>
     </footer>
+
+    <script src="responsive-navbarJS.js"></script>
 </body>
 
 </html>

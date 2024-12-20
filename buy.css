@@ -1,7 +1,7 @@
-/* CSS Reset  */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -12,26 +12,20 @@ body {
     /* background: url('img/bg.jpg.jpg')no-repeat center center/ cover; */
 }
 
-
 header {
     background-color: black;
     top: 0px;
     justify-content: space-between;
+    padding: 0px 23px; 
     align-items: center;
     display: flex;
     position: sticky;
     height: 77px;
 }
 
-.left {
-    position: relative;
-    left: 10px;
-    display: inline-block;
-}
-
 .left img {
     width: 70px;
-    /* shape-image-threshold: (10px); */
+    /* border-radius: 50%; */
 }
 
 .left div {
@@ -58,6 +52,7 @@ header {
     display: inline-block;
 
     } */
+
 /* .left li {
         font-size: 58;
     } */
@@ -85,9 +80,8 @@ header {
 
 .btn {
     font-family: 'Merriweather Sans', sans-serif;
-    position: relative;
-    right: 45px;
     border-radius: 3px;
+    /* margin: 0px 50px; */
     padding: 17px 14px;
     font-size: 15px;
     cursor: pointer;
@@ -97,33 +91,38 @@ header {
     background-color: rgb(82, 75, 75);
 }
 
+.buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 300px;
+    background-color: #3b4550;
+    font-size: 1.9rem;
+}
+
 .container {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between ; */
     align-items: center;
-    margin: 90px 0px ;
+    margin: 90px 50px ;
+    padding: 0px ;
     /* height: 90vh; */
     /* border: 2px solid red; */
 }
 
-.packs {
-    display: block;
-    /* position: relative; */
-    width: 55%;
-    margin: 15px 100px;
-}
-
 .packs>p {
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 .pack-list {
-    margin: 24px;
+    text-align: center;
 }
 
 .box {
     /* border: 2px solid black; */
     text-align: center;
+    width: 280px;
     display: inline-block;
     padding: 23px 33px;
     box-shadow: 0px 4px 8px rgb(33, 4, 4, 0.1);
@@ -149,7 +148,6 @@ header {
 }
 
 
-
 footer {
     background-color: rgb(33, 4, 4);
 
@@ -157,13 +155,17 @@ footer {
 
 .footer {
     display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
     height: 190px;
+    margin: 0px 45px;
     color: white;
 }
 
 .footer-first {
-    width: 20%;
-    margin: 25px 120px;
+    width: 430px;
+    line-height: 1.8rem;
+    margin: 25px 46px;
 }
 
 .footer-second ul li a {
@@ -173,7 +175,7 @@ footer {
 
 .footer-second ul li {
     list-style: none;
-    margin: 23px 65px;
+    margin: 23px 46px;
 }
 
 .footer-third ul li a {
@@ -184,7 +186,7 @@ footer {
 
 .footer-third ul li {
     list-style: none;
-    margin: 23px 89px;
+    margin: 23px 46px;
 }
 
 hr {
@@ -198,4 +200,24 @@ hr {
     margin: 0px 38px;
     padding: 8px 0px;
 
+}
+
+
+@media screen and (max-width: 1280px) {
+    
+    .buy{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .container{
+        flex-direction: column; 
+        /* border: 2px solid; */
+        margin: 30px 10px ;
+    }  
+
+    .box{
+        margin: 23px 10px;
+    }
+    
+    
 }

@@ -16,9 +16,8 @@ body {
 header {
     background-color: black;
     top: 0px;
-    /* max-width: ; */
     justify-content: space-between;
-    padding: 0px 23px;
+    padding: 0px 23px; 
     align-items: center;
     display: flex;
     position: sticky;
@@ -93,24 +92,6 @@ header {
     background-color: rgb(82, 75, 75);
 }
 
-.menu-icon{
-    display: none;
-    color: white;
-    margin: 23px ;
-    font-size: 1.9rem;
-    cursor: pointer;
-
-}
-/* @media (max-width: 999px) {
-    
-    .header .navbar{
-        display: none;
-    }
-    .right .btn{
-        display: non;
-    }
-}     */
-
 .team {
     background: url(img/out_team_bg.webp) no-repeat center center / cover;
     display: flex;
@@ -127,7 +108,7 @@ header {
     /* height: 163vh; */
     margin: 32px 148px;
     text-align: center;
-    top: 71%;
+    /* top: 71%; */
 }
 
 .container .box {
@@ -201,13 +182,17 @@ footer {
 
 .footer {
     display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
     height: 190px;
+    margin: 0px 45px;
     color: white;
 }
 
 .footer-first {
-    width: 20%;
-    margin: 25px 120px;
+    width: 430px;
+    line-height: 1.8rem;
+    margin: 25px 46px;
 }
 
 .footer-second ul li a {
@@ -217,7 +202,7 @@ footer {
 
 .footer-second ul li {
     list-style: none;
-    margin: 23px 65px; 
+    margin: 23px 46px;
 }
 
 .footer-third ul li a {
@@ -228,7 +213,7 @@ footer {
 
 .footer-third ul li {
     list-style: none;
-    margin: 23px 89px;
+    margin: 23px 46px;
 }
 
 hr {
@@ -243,3 +228,38 @@ hr {
     padding: 8px 0px;
 
 }
+
+
+
+
+
+
+
+@media screen and (max-width: 1004px) {
+    
+    .team{
+        /* align-items: center;
+        justify-content: center; */
+        font-size: 1rem;
+    }
+    
+    .container{
+        flex-direction: column;
+        margin: 0px 0px;
+    }
+    
+    .contact{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 50px 10px;
+    }
+    .contact h1{
+        font-size: 1.8rem;
+    }
+    .contact>div{
+        margin: 20px 1px;
+        
+    }
+    }

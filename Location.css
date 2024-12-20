@@ -1,8 +1,9 @@
-/* CSS Reset  */
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 body {
     font-family: 'Merriweather Sans', sans-serif;
     color: black;
@@ -11,26 +12,20 @@ body {
     /* background: url('img/bg.jpg.jpg')no-repeat center center/ cover; */
 }
 
-
 header {
     background-color: black;
     top: 0px;
     justify-content: space-between;
+    padding: 0px 23px; 
     align-items: center;
-    display: flex;
+    display: flex; 
     position: sticky;
     height: 77px;
 }
 
-.left {
-    position: relative;
-    left: 10px;
-    display: inline-block;
-}
-
 .left img {
     width: 70px;
-    /* shape-image-threshold: (10px); */
+    /* border-radius: 50%; */
 }
 
 .left div {
@@ -85,9 +80,8 @@ header {
 
 .btn {
     font-family: 'Merriweather Sans', sans-serif;
-    position: relative;
-    right: 45px;
     border-radius: 3px;
+    /* margin: 0px 50px; */
     padding: 17px 14px;
     font-size: 15px;
     cursor: pointer;
@@ -97,19 +91,18 @@ header {
     background-color: rgb(82, 75, 75);
 }
 
-.location{
+.location {
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     background-color: #3b4550;
-    height: 40vh;
-}
-.location h1{
-    font-size: 3.3rem;
+    height: 300px;
+    font-size: 2.3rem;
 }
 
-.container{
+
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -117,28 +110,31 @@ header {
     padding: 32px 0px;
     /* border: 2px solid red; */
 }
+
 .box {
-      border: 2px solid #f2f2f9;
-      margin: 0px 122px;
-      padding: 46px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      border-radius: 20px;
-      text-align: center;
+    border: 2px solid #f2f2f9;
+    margin: 0px 122px;
+    padding: 46px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    text-align: center;
 }
-.content a{
+
+.content a {
     text-decoration: none;
     color: rgb(53, 52, 52);
 }
-.content>div{
+
+.content>div {
     padding: 9px;
 }
 
-.container :hover{
+.container :hover {
     transform: scale(1.05);
 }
 
 
-.btn2{
+.btn2 {
     margin: 11px -47px;
     padding: 10px 16px;
     font-size: 1rem;
@@ -147,7 +143,7 @@ header {
     cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: gray;
 }
 
@@ -158,13 +154,17 @@ footer {
 
 .footer {
     display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
     height: 190px;
+    margin: 0px 45px;
     color: white;
 }
 
 .footer-first {
-    width: 20%;
-    margin: 25px 120px;
+    width: 430px;
+    line-height: 1.8rem;
+    margin: 25px 46px;
 }
 
 .footer-second ul li a {
@@ -174,7 +174,7 @@ footer {
 
 .footer-second ul li {
     list-style: none;
-    margin: 23px 65px;
+    margin: 23px 46px;
 }
 
 .footer-third ul li a {
@@ -185,7 +185,7 @@ footer {
 
 .footer-third ul li {
     list-style: none;
-    margin: 23px 89px;
+    margin: 23px 46px;
 }
 
 hr {
@@ -198,5 +198,26 @@ hr {
     justify-content: space-between;
     margin: 0px 38px;
     padding: 8px 0px;
+
+}
+
+@media screen and (max-width: 1004px) {
+    
+    .location h1{
+        font-size: 2.2rem;
+    }
+
+    .container {
+        flex-direction: column;
+        /* border: 2px solid red; */
+    }
+
+    .box {
+        /* width: 34vw; */
+        margin: 10px;
+        padding: 46px 0px;
+    }
+
+   
 
 }

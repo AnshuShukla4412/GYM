@@ -1,7 +1,7 @@
-/* CSS Reset  */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -16,21 +16,16 @@ header {
     background-color: black;
     top: 0px;
     justify-content: space-between;
+    padding: 0px 23px; 
     align-items: center;
     display: flex;
     position: sticky;
     height: 77px;
 }
 
-.left {
-    position: relative;
-    left: 10px;
-    display: inline-block;
-}
-
 .left img {
     width: 70px;
-    /* shape-image-threshold: (10px); */
+    /* border-radius: 50%; */
 }
 
 .left div {
@@ -70,7 +65,7 @@ header {
     display: inline-block;
     font-size: 25px;
 }
-
+ 
 .navbar li a {
     color: white;
     text-decoration: none;
@@ -85,9 +80,8 @@ header {
 
 .btn {
     font-family: 'Merriweather Sans', sans-serif;
-    position: relative;
-    right: 45px;
     border-radius: 3px;
+    /* margin: 0px 50px; */
     padding: 17px 14px;
     font-size: 15px;
     cursor: pointer;
@@ -104,7 +98,7 @@ header {
     background: url(img/contact_us_bg.webp) no-repeat center center / cover;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 350px;
     color: white;
     font-size: 1.9rem;
 }
@@ -113,26 +107,28 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 0px ;
+    margin: 3rem 5rem;
     /* height: 90h; */
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 
 .choose-us {
     display: inline-block;
     color: black;
-    margin: 0px 76px;
-    width: 46%;
-    text-align: justify;
+    /* margin: 0px 5rem; */
+    /* width: 46vw; */
     left: 133px;
-
+    
 }
 
 .container>div {
     font-size: 17px;
-
+    
 }
 
 .choose-us p {
+    text-align: justify;
     color: rgb(105 105 105);
     margin: 23px 0px;
 }
@@ -157,13 +153,13 @@ header {
     justify-content: center;
     box-shadow: 0px 0px 8px rgb(0, 0, 0, 0.1);
     background-color: white;
-    padding: 0px 59px;
+    /* padding: 0px 59px; */
     /* width: 30%; */
     margin: 25px 120px;
 }
 
 .form .div {
-margin: 35px 0px;
+margin: 35px 60px;
 }
 
 .div h1 {
@@ -180,7 +176,7 @@ margin: 35px 0px;
     font-family: 'Merriweather Sans', sans-serif;
     text-align: center;
     display: block;
-    width: 93%;
+    width: 100%;
     padding: 9px;
     border: 2px solid black;
     font-size: 20px;
@@ -216,8 +212,6 @@ margin: 35px 0px;
 }
 
 
-
-
 footer {
     background-color: rgb(33, 4, 4);
 
@@ -225,13 +219,17 @@ footer {
 
 .footer {
     display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
     height: 190px;
+    margin: 0px 45px;
     color: white;
 }
 
 .footer-first {
-    width: 20%;
-    margin: 25px 120px;
+    width: 430px;
+    line-height: 1.8rem;
+    margin: 25px 46px;
 }
 
 .footer-second ul li a {
@@ -241,7 +239,7 @@ footer {
 
 .footer-second ul li {
     list-style: none;
-    margin: 23px 65px;
+    margin: 23px 46px;
 }
 
 .footer-third ul li a {
@@ -252,7 +250,7 @@ footer {
 
 .footer-third ul li {
     list-style: none;
-    margin: 23px 89px;
+    margin: 23px 46px;
 }
 
 hr {
@@ -266,4 +264,35 @@ hr {
     margin: 0px 38px;
     padding: 8px 0px;
 
+}
+
+@media screen and (max-width: 1159px) {
+          
+    .contact{
+        font-size: 1.5rem;
+    }
+
+
+    .container{
+        border: 2px solid;
+        flex-direction: column;
+        margin: 0px ;
+        padding: 0px;
+    }
+
+    .choose-us{
+        margin: 0px 0px;
+    }
+
+    .form{
+        width: 400px;
+    }
+    
+}
+
+@media screen and (max-width: 407){
+    .form-group input{
+        width: 100vw;
+    }
+    
 }
