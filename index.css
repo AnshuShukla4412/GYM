@@ -93,7 +93,7 @@ header {
 }
 
 .vid{
-    width: 100vw;
+    width: 100%;
 }
 
 
@@ -193,3 +193,12 @@ hr {
     padding: 8px 0px;
 
 }
+@media screen and (max-width: 1004px) {
+    .box{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+
+    
+}
+
