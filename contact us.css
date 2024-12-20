@@ -110,7 +110,7 @@ header {
     padding: 0px 0px ;
     margin: 3rem 5rem;
     /* height: 90h; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .choose-us {
@@ -274,7 +274,7 @@ hr {
 
 
     .container{
-        border: 2px solid;
+        /* border: 2px solid; */
         flex-direction: column;
         margin: 0px ;
         padding: 0px;

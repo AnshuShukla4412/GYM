@@ -12,25 +12,26 @@ body {
 }
 
 .container {
-    width: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contant {
     /* border: 2px solid red; */
+    width: 540px;
     border-radius: 12px;
     box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.1);
-    /* top: 30%; */
-    display: block;
-    position: relative;
-    left: 25%;
-    /* height:100vh;*/
-    margin: 53px 13px;
     padding: 19px;
     text-align: center;
-    margin: 100px;
+    margin: 2rem;
 
 }
 
 .container img {
-    width: 35%;
-    padding: 23px 0px;
+    width: 200px;
+    margin: 23px 0px;
 }
 
 .div {
@@ -44,7 +45,7 @@ body {
 }
 
 .UTR input {
-    width: 30%;
+    width: 152px;
     height: 31px;
     text-align: center;
     font-size: 1rem;
@@ -52,11 +53,11 @@ body {
 }
 
 .btn {
-    height: 35px;
+    /* height: 35px; */
     border-radius: 9px;
     cursor: pointer;
     font-size: 15px;
-    width: 15%;
+    padding: 7px 7px;
     background-color: skyblue;
 }
 
@@ -65,7 +66,7 @@ body {
 }
 
 .note {
-    margin-top: 24px 0px;
+    margin-top: 24px;
     color: red;
     /* text-align: left; */
     font-size: 1.3rem;
@@ -87,4 +88,34 @@ body {
     font-size: 1.2rem;
     text-align: center;
     text-decoration: none;
+}
+
+@media screen and (max-width: 1004px) {
+    .div {
+        font-size: 1.2rem;
+    }
+
+    .UTR {
+        margin: 0px;
+        font-size: .6rem;
+    }
+
+    .UTR input {
+        height: 19px;
+        font-size: .8rem;
+    }
+
+    .btn {
+        font-size: 9px;
+        padding: 4px 4px;
+        border-radius: 4px;
+    }
+    
+    .note{
+        font-size: 1rem;
+    }
+
+    .container .home a {
+        font-size: 1rem;
+    }
 }
