@@ -247,17 +247,18 @@ hr {
     .section2 .btn1{
         margin: 12px 0px;
     }
-        
+}
+
+@media screen and (max-width: 1340px){
+    
     .section1{
         flex-direction: column;
         margin: 30px 0px;
     }
-
+    
     .section1 h1{
         font-size: 1.9rem;
     }
-
-   
 }
 @media screen and (max-width: 870px) {
     .footer-first{
