@@ -1,3 +1,4 @@
+/* CSS Reset  */
 * {
     margin: 0;
     padding: 0;
@@ -16,11 +17,11 @@ header {
     background-color: black;
     top: 0px;
     justify-content: space-between;
-    padding: 0px 23px;
+    padding: 0px 23px; 
     align-items: center;
     display: flex;
     position: sticky;
-    height: 77px; 
+    height: 77px;
 }
 
 .left img {
@@ -91,8 +92,8 @@ header {
     background-color: rgb(82, 75, 75);
 }
 
-.about {
-    background: url(img/about1.jpg) no-repeat center center / cover;
+.Term{
+    background: url(img/terms_bg.png) no-repeat center center / cover;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -102,77 +103,27 @@ header {
     font-size: 1.8rem;
 }
 
-.section1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 45px 50px;
-}
-
-.section1 img {
-    margin: 10px;
-    width: 94vw;
-    height: 550px;
-
-}
-
-.section1 .P {
-    margin: 0px 1rem;
-    
-}
-
-.section1 p {
-    padding: 10px 0px;
-    font-size: 1.1rem;
-    text-align: justify;
-    color: rgb(43, 43, 43);
-}
-
-.section1 h1 {
-    font-size: 2.5rem;
-}
-
-.btn1 {
-    background-color: black;
-    font-size: 1.2rem;
-    padding: 10px 10px;
-    color: white;
-    cursor: pointer;
-}
-
-.btn1:hover {
-    background-color: gray;
-}
-
-.section2 {
+.container{
+    margin: 7rem;
+    padding: 1.5rem;
     /* border: 2px solid red; */
-    /* top: 130%; */
-    margin: 82px 0px;
-    color: white;
-    font-size: 1.5rem;
-}
-.section2 div{
-    display: flex;
-    margin: 0rem 7rem;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px 80px;
-    background: url(img/about_our_team.webp) no-repeat center center/cover;
-
+    box-shadow: 0px 4px 8px rgb(33, 4, 4, 0.1);
 }
 
-.section2 .btn1 {
-    background-color: white;
-    color: black;
-    padding: 12px 15px;
-    font-size: 1.1rem;
-    cursor: pointer;
+.container h2{
+    font-size: 1.8rem;
+    margin: 12px 0px;
+    font-weight: 900;
 }
-
-.section2 .btn1:hover {
-    background-color: gray;
+.container h3{
+    /* font-weight: 800; */
+    line-height: 2;
+    text-transform: uppercase;
 }
-
+.container p{
+ line-height: 2;
+ color: rgba(112, 115,114, 1);
+}
 
 
 footer {
@@ -229,62 +180,22 @@ hr {
 
 }
 
-@media screen and (max-width: 1004px) {
 
-    .about {
-        font-size: 1.2rem;
-        text-align: center;
-
-    }
-
-    .section2 div{
-        flex-direction: column;
-        margin: 12px;
-        padding: 12px 0px;
-        font-size: 1.2rem;
+@media screen and (max-width: 800px) {
+    .Term{
+        font-size: 1rem;
         text-align: center;
     }
-    .section2 .btn1{
-        margin: 12px 0px;
-    }
-}
 
-@media screen and (max-width: 1340px){
-    
-    .section1{
-        flex-direction: column;
-        margin: 30px 0px;
+    .container{
+        margin: 7rem 0.5rem;
     }
-    
-    .section1 h1{
-        font-size: 1.9rem;
-    }
-}
-@media screen and (max-width: 870px) {
-    .footer-first{
-        max-width: 70vw;
-        text-align: justify;
+    .container h2{
+        font-size: 1.4rem;
     }
 
-    footer{
-        flex-direction: column;
+    .container h3{
+        font-size: 0.8rem;
     }
-    .footer{
-        flex-direction: column;
-        height: auto;
-        text-align: left;
-        margin: 0px 0px;
-    }
-
-    .footer-down{
-        text-align: center;
-        flex-direction: column;
-        line-height: 2rem;
-    }
-
-    .section1 img{
-        height: 0%;
-    }
-
 
 }

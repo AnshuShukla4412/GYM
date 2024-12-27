@@ -193,6 +193,7 @@ hr {
     padding: 8px 0px;
 
 }
+
 @media screen and (max-width: 1004px) {
     .box{
         /* flex-direction: column; */
@@ -201,4 +202,3 @@ hr {
 
     
 }
-

@@ -130,7 +130,9 @@ header {
 }
 
 .container :hover {
+    transition: transform 0.2s; 
     transform: scale(1.05);
+
 }
 
 
