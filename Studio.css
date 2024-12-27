@@ -133,19 +133,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background: url(img/studio_club_bg.png) no-repeat center center / cover;
     color: white;
 }
 
-/* .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid red;
-    width: 90vw;
-    height: 50vh;
-} */
 .section2 .vid{
     width: 40vw;
     margin: 7rem 0rem 7rem 9rem;
