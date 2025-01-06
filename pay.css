@@ -62,7 +62,8 @@ body {
 }
 
 .btn:hover {
-    background-color: red;
+   background-color: rgb(165, 38, 38);
+    color: white;
 }
 
 .note {
