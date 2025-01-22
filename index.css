@@ -17,7 +17,7 @@ body {
 .section1 {
     display: flex;
     background-color: #f7f7f7;
-    padding: 5rem 7rem;
+    padding: 5rem 7rem; 
 }
 
 .section1 h1 {
