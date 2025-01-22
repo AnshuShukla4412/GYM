@@ -6,199 +6,251 @@
 
 body {
     font-family: 'Merriweather Sans', sans-serif;
-    color: black;
     margin: 0px;
     padding: 0px;
-    /* background: url('img/bg.jpg.jpg')no-repeat center center/ cover; */
 }
 
-header {
-    background-color: black;
-    top: 0px;
-    justify-content: space-between;
-    padding: 0px 23px; 
-    align-items: center;
-    display: flex;
-    position: sticky;
-    z-index: 10;
-    height: 77px;
-}
-
-.left img {
-    width: 70px;
-    /* border-radius: 50%; */
-}
-
-.left div {
-    text-align: center;
-    font-size: 12px;
-    color: white;
-}
-
-.mid {
-    position: relative;
-    /* display: flex; */
-    text-align: center;
-    left: 0%;
-    /* top: -46px; */
-    margin: 7px 0px;
-
-}
-
-/* .right {
-    position: absolute;
-    right: 16px;
-    top: 18px;
-    ;
-    display: inline-block;
-
-    } */
-
-/* .left li {
-        font-size: 58;
-    } */
-
-.navbar {
-    display: inline-block;
-}
-
-.navbar li {
-    display: inline-block;
-    font-size: 25px;
-}
-
-.navbar li a {
-    color: white;
-    text-decoration: none;
-    padding: 7px 23px;
-}
-
-
-.navbar li a:hover {
-    text-decoration: underline;
-    color: gray;
-}
-
-.btn {
-    font-family: 'Merriweather Sans', sans-serif;
-    border-radius: 3px;
-    /* margin: 0px 50px; */
-    padding: 17px 14px;
-    font-size: 15px;
-    cursor: pointer;
-}
-
-.btn:hover {
-    background-color: rgb(82, 75, 75);
-}
-
-.vid{
+.vid {
     width: 100%;
 }
 
+.section1 {
+    display: flex;
+    background-color: #f7f7f7;
+    margin: 5rem 7rem;
+}
 
-.team{
+.section1 h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    /* line-height: 2; */
+}
+
+.section1 .SSpro {
+    margin-left: 5rem;
+}
+
+.section1 p {
+    padding: 12px 0px;
+    line-height: 1.7;
+    color: rgba(112, 115, 114, 1);
+}
+
+.section1 a {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    margin: 2rem 0rem;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.section1 a:hover {
+    background-color: rgb(38, 36, 36);
+}
+
+.section2 {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.section2 .vid-2 {
+    width: 50vw;
+    margin: 7rem 0rem 7rem 7rem;
+    border: 2px solid white;
+}
+
+.section2 .club {
+    margin: 7rem 6rem 7rem 2rem;
+}
+
+.section2 h2 {
+    font-size: 2.5rem;
+    line-height: 2;
+}
+
+.section2 p {
+    line-height: 1.7;
+}
+
+.section2 a {
+    display: inline-block;
+    border: 2px solid white;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    margin: 2rem 0rem;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.section2 a:hover {
+    background-color: white;
+    color: black;
+}
+
+.team {
+    background-color: rgba(236, 236, 234, 1);
     /* border: 2px solid red; */
     display: inline-block;
     border-radius: 8px;
     align-content: center;
-    margin: 70px 0px;
+    padding: 70px 0px;
     text-align: center;
     /* height: 50vh; */
     width: 98.9vw;
 }
 
-.box{
+.team h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.box {
     display: flex;
     margin: 16px 10px;
     align-items: end;
+    justify-content: center;
 }
-.box1{
-    margin: auto;
+
+.box1 {
+    margin: 12px  12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 274px;
     /* height: 274px; */
     border-radius: 5px;
+    background-color: white;
 }
-.img img{
+
+.img img {
     width: 171px;
     height: 171px;
     object-fit: cover;
     object-position: center;
     margin: 20px 0px;
     border-radius: 50%;
+    cursor: pointer;
 }
-.box h2{
+
+.box h2 {
     color: black;
     padding: 6px 0px;
     /* position: absolute; */
 }
 
-.box .position{
+.box .position {
     color: rgb(164 164 164);
     /* position: absolute; */
     padding: 6px 0px;
 }
 
-footer {
-    background-color: rgb(33, 4, 4);
-
-}
-
-.footer {
+/* ========================================slider======================================= */
+/* .box {
     display: flex;
-    /* align-items: center; */
-    justify-content: space-between;
-    height: 190px;
-    margin: 0px 45px;
+    transition: transform 0.5s ease;
+}
+
+.box1 {
+    min-width: 100%;
+    box-sizing: border-box;
+} */
+
+/* .button {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    transform: translateY(-50%);
 }
 
-.footer-first {
-    width: 430px;
-    line-height: 1.8rem;
-    margin: 25px 46px;
+.prev {
+    left: 10px;
 }
 
-.footer-second ul li a {
-    text-decoration: none;
-    color: white;
+.next {
+    right: 10px;
 }
 
-.footer-second ul li {
-    list-style: none;
-    margin: 23px 46px;
-}
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+} */
 
-.footer-third ul li a {
-    text-decoration: none;
-    right: 0px;
-    color: white;
-}
+/* ==============================================slider================================= */
 
-.footer-third ul li {
-    list-style: none;
-    margin: 23px 46px;
-}
 
-hr {
-    margin: 12px 23px;
-}
-
-.footer-down {
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 38px;
-    padding: 8px 0px;
-
-}
 
 @media screen and (max-width: 1004px) {
-    .box{
+    .box {
         /* flex-direction: column; */
         flex-wrap: wrap;
     }
 
-    
+
+    .section1 {
+        margin: 4rem 2rem;
+    }
+
+}
+
+@media screen and (max-width: 1169px) {
+
+    .section2 {
+        flex-direction: column;
+    }
+
+    .section2 .vid-2 {
+        width: 70vw;
+        margin: 5rem 0rem 2rem 0rem;
+    }
+
+    .section2 .club {
+        margin: 0rem 6rem 4rem 8rem;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .section1 {
+        flex-direction: column;
+    }
+
+    .section1 .SSpro {
+        margin-left: 0rem;
+    }
+}
+
+@media screen and (max-width: 828px) {
+    .section2 .vid-2 {
+        width: 90vw;
+        margin: 5rem 0rem 2rem 0rem;
+    }
+
+    .section2 .club {
+        margin: 0rem 1rem 4rem 1rem;
+    }
+
+    .section1{
+        margin: 4rem 1rem;
+    }
+    .section1 h1{
+        font-size: 1.5rem;
+    }
+
+    .section1 a {
+        padding: 1rem 1rem;
+        font-size: 0.7rem;
+        margin: 1rem 0rem;
+        text-align: center;
+
+    }
 }
