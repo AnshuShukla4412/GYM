@@ -28,7 +28,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3rem 5rem;
+    padding: 3rem 5rem; 
     background-color: rgba(236, 236, 234, 1);
     /* height: 90h; */
     /* border: 2px solid red; */
