@@ -12,7 +12,6 @@ body {
     /* background: url('img/bg.jpg.jpg')no-repeat center center/ cover; */
 }
 
-
 .about {
     background: url(img/about1.jpg) no-repeat center center / cover;
     justify-content: center;
@@ -77,12 +76,10 @@ body {
     margin: 10px;
     width: 94vw;
     height: 550px;
-
 }
 
 .section2 .P {
     margin: 0px 1rem;
-    
 }
 
 .section2 p {
@@ -108,7 +105,6 @@ body {
     justify-content: space-between;
     padding: 40px 80px;
     background: url(img/about_our_team.webp) no-repeat center center/cover;
-
 }
 
 .section3 .btn1 {
