@@ -16,7 +16,7 @@ body {
 .contact {
     display: flex;
     /* border: 2px solid black; */
-    background: url(img/contact_us_bg.webp) no-repeat center center / cover;
+    background: url(img/contact_us_bg.jpg) no-repeat center center / cover;
     justify-content: center;
     align-items: center;
     height: 350px;
