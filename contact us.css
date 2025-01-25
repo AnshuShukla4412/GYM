@@ -28,7 +28,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3rem 5rem; 
+    /* padding: 0px 0px ; */
+    padding: 3rem 5rem;
     background-color: rgba(236, 236, 234, 1);
     /* height: 90h; */
     /* border: 2px solid red; */
@@ -142,8 +143,8 @@ margin: 35px 60px;
     .container{
         /* border: 2px solid; */
         flex-direction: column;
-        margin: 3rem 5rem ;
-        padding: 0px;
+        padding: 3rem 5rem ;
+        /* padding: 0px; */
     }
 
     
@@ -157,7 +158,7 @@ margin: 35px 60px;
     }
 
     .container{
-        margin: 3rem 1rem;
+        padding: 3rem 1rem;
     }
     .choose-us h1{
         font-size: 1.5rem;
