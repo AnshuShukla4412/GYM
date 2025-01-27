@@ -14,7 +14,7 @@ body {
 }
 
 .team {
-    background: url(img/out_team_bg.webp) no-repeat center center / cover;
+    background: url(img/out_team_bg.jpg) no-repeat center center / cover;
     display: flex;
     justify-content: center;
     color: white;
@@ -55,7 +55,7 @@ body {
 }
 
 .box:hover {
-    background-color: rgb(142, 142, 142);
+    background-color: #707372;
     color: white;
 }
 
