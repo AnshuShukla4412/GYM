@@ -15,7 +15,7 @@ body {
 
 .team {
     background: url(img/out_team_bg.jpg) no-repeat center center / cover;
-    display: flex;
+    display: flex; 
     justify-content: center;
     color: white;
     height: 490px;
